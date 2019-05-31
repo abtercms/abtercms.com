@@ -1,3 +1,15 @@
 [submodule "www/themes/meghna-hugo"]
 	path = www/themes/meghna-hugo
 	url = git@github.com:themefisher/meghna-hugo.git
+[submodule "docs/themes/hugo-theme-learn"]
+	path = docs/themes/hugo-theme-learn
+	url = git@github.com:matcornic/hugo-theme-learn.git
+[submodule "abterphp/themes/hugo-theme-learn"]
+	path = abterphp/themes/hugo-theme-learn
+	url = git@github.com:matcornic/hugo-theme-learn.git
+[submodule "docs/themes/hugo-notice"]
+	path = docs/themes/hugo-notice
+	url = https://github.com/martignoni/hugo-notice.git
+[submodule "abterphp/themes/hugo-notice"]
+	path = abterphp/themes/hugo-notice
+	url = https://github.com/martignoni/hugo-notice.git
