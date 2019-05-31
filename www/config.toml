@@ -1,0 +1,137 @@
+baseURL = "https://abtercms.com/"
+languageCode = "en-us"
+DefaultContentLanguage = "en"
+title = "AbterCMS"
+theme = "meghna-hugo"
+summaryLength = 10
+
+[taxonomies]
+  author = "author"
+  category = "categories"
+  tag = "tags"
+
+# Menu
+[menu]
+    [[menu.nav]]
+    name = "About AbterCMS"
+    URL = "about"
+    weight = 2
+
+    [[menu.nav]]
+    name = "Features"
+    URL = "features"
+    weight = 3
+
+#    [[menu.nav]]
+#    name = "Portfolio"
+#    URL = "portfolio"
+#    weight = 4
+
+#    [[menu.nav]]
+#    name = "Team"
+#    URL = "our-team"
+#    weight = 5
+
+#    [[menu.nav]]
+#    name = "Pricing"
+#    URL = "pricing"
+#    weight = 6
+
+    [[menu.nav]]
+    name = "Blog"
+    URL = "blog"
+    weight = 7
+
+#    [[menu.nav]]
+#    name = "Contact"
+#    URL = "contact-us"
+#    weight = 8
+
+# Site params
+[params]
+home= "Home"
+logo = "images/logo.png"
+#gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
+# Meta data
+description = "Open source, language agnostic, secure CMS"
+author = "AbterCMS Team"
+# Google Analitycs
+googleAnalitycsID = "UA-141193842-1"
+custom_css = ["css/custom.css"]
+
+    # Banner Section
+    [params.banner]
+    enable = true
+    bgImage = "images/slider/free-1900.jpg"
+    icon = "tf-ion-play"
+    heading = "Choose a future-proof CMS"
+    content= "AbterCMS is designed to get you started with a secure website in minutes, but also to enable scaling with minimal effort."
+    btn = true
+    btnText="Learn More"
+    btnURL="#features"
+
+    # call to action
+    [params.cta]
+    enable = true
+    title = "Get started with AbterPHP"
+    content = "The first implementation of AbterCMS is written in PHP and it's ready for you to get started with."
+    btnURL = "https://docs.abtercms.com/"
+    btnText = "Get started"
+
+    # counter
+    [params.counter]
+    enable = false
+    bgImage = "images/backgrounds/bg-1.jpg"
+        [[params.counter.counterItem]]
+        title = "Happy Clients"
+        icon = "tf-ion-android-happy"
+        count = "320"
+
+        [[params.counter.counterItem]]
+        title = "Projects completed"
+        icon = "tf-ion-archive"
+        count = "565"
+
+        [[params.counter.counterItem]]
+        title = "Positive feedback"
+        icon = "tf-ion-thumbsup"
+        count = "95"
+
+        [[params.counter.counterItem]]
+        title = "Cups of Coffee"
+        icon = "tf-ion-coffee"
+        count = "2500"
+
+    # footer
+    [params.footer]
+        copyright = "AbterCMS Team"
+        copyrightURL = "https://www.abtercms.com/"
+
+        # social Icons
+        [[params.footer.socialIcon]]
+        icon = "tf-ion-social-facebook"
+        url = "https://www.facebook.com/AbterCms-447770489313505/"
+
+        [[params.footer.socialIcon]]
+        icon = "tf-ion-social-twitter"
+        url = "https://twitter.com/abtercms"
+
+#        [[params.footer.socialIcon]]
+#        icon = "tf-ion-social-google-outline"
+#        url = "#"
+
+        [[params.footer.socialIcon]]
+        icon = "tf-ion-social-youtube"
+        url = "https://www.youtube.com/channel/UCmfT8Tx1Tn7kjY8pRRgwBXw"
+
+#        [[params.footer.socialIcon]]
+#        icon = "tf-ion-social-linkedin"
+#        url = "#"
+
+#        [[params.footer.socialIcon]]
+#        icon = "tf-ion-social-dribbble-outline"
+#        url = "#"
+
+#        [[params.footer.socialIcon]]
+#        icon = "tf-ion-social-pinterest-outline"
+#        url = "#"
