@@ -2,26 +2,26 @@ enable: true
 heading: Key
 headingSpan: Features
 serviceItem:
-  - icon: tf-globe
+  - icon: fas fa-plane-arrival
     title: Landing Page
     content: Get a modern landing page with an admin interface up and running within a 5 minutes.
 
-  - icon: tf-lifesaver
-    title: CMS
+  - icon: fas fa-edit
+    title: Simple CMS
     content: Create custom website pages, simple blogs simply. Use layouts and blocks as needed.
 
-  - icon: tf-target3
+  - icon: fab fa-creative-commons-share
     title: File Sharing
     content: Share your files privately or publicly with no extra steps. Store them locally.
 
-  - icon: tf-ion-laptop
+  - icon: fas fa-unlock-alt
     title: Authorization
     content: Assign users to multiple user groups and assign resources to your user groups with ease.
 
-  - icon: tf-dial
+  - icon: fas fa-handshake
     title: API
-    content: Restful API based on a comprehensive set of guidelines created by Zalando. Backwards compatibility will be guaranteed.
+    content: Restful API based on a comprehensive set of guidelines. Backwards compatibility will be guaranteed.
 
-  - icon: tf-genius
+  - icon: fas fa-user-shield
     title: Two-factor authentication
-    content: THIS IS YET TO BE IMPLEMENTED. DESCRIPTION WILL HAVE TO BE ADDED. PLEASE DO!
+    content: Extra safety provided by two factor authentication. (Feature is yet to be implemented.)

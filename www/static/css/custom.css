@@ -26,15 +26,32 @@
 .call-to-action .btn {
   box-shadow: 2px 2px 1px 1px rgba(53, 59, 67, 0.75);
 }
+
+/*=================================================================
+  Services section #1084
+==================================================================*/
+
+.service-block p {
+  min-height: 4.5em;
+}
+
+.service-icon i {
+  color: #57cbcc;
+}
+
 /*=================================================================
  Custom
 ==================================================================*/
+
+body {
+  color: #94a1ac;
+}
 
 .post-single-content h2 {
   color: white;
   font-weight: bold;
 }
 
-body {
-  color: #94a1ac;
+.about2 .fas, .about2 .far {
+  color: #57cbcc;
 }

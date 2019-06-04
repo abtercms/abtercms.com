@@ -4,26 +4,26 @@ title: AbterCMS is an open source, language agnostic, secure CMS
 description: AbterCMS currently only has one implementation in PHP. It is however an explicit plan to have various backend and frontend implementations in place eventually.
 description2:
 aboutItem:
-  - icon: tf-circle-compass
+  - icon: fas fa-shield-alt
     title: Secure
     content: Designed with security in mind. Modern cryptography tools, client-side hashing, two-factor authorization, complex ACL and many more features.
 
-  - icon: tf-dial
+  - icon: fas fa-seedling
     title: Scaleable
     content: The database is designed to scale beyond a single master. API is designed to support microservices. AbterCMS is designed to get out of the way when scaling.
 
-  - icon: tf-ion-laptop
+  - icon: fas fa-handshake
     title: API
-    content: Restful API based on a comprehensive set of guidelines created by Zalando. Backwards compatibility will be guaranteed.
+    content: Restful API based on a comprehensive set of guidelines. Backwards compatibility will be guaranteed.
 
-  - icon: tf-genius
+  - icon: far fa-gem
     title: Stable
     content: AbterCMS is a set of APIs and interfaces. AbterPHP is only its first implementation, but there are various backend and frontend implementations planned.
 
-  - icon: tf-hotairballoon
+  - icon: fas fa-code
     title: Language Agnostic
     content: AbterCMS is a set of APIs and interfaces. There's nothing stopping you from writing code in any language you fancy.
 
-  - icon: tf-target3
+  - icon: fas fa-hand-spock
     title: Developer friendly
     content: Docker, git, travis and many other tools are pre-setup for fast and simple development.
