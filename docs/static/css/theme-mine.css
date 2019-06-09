@@ -1,28 +1,29 @@
+@import url("https://fonts.googleapis.com/css?family=Anaheim|Quattrocento+Sans:400,700");
 
 :root{
     
     --MAIN-TEXT-color:#323232; /* Color of text by default */
     --MAIN-TITLES-TEXT-color: #5e5e5e; /* Color of titles h2-h3-h4-h5 */
-    --MAIN-LINK-color:#599a3e; /* Color of links */
-    --MAIN-LINK-HOVER-color:#3f6d2c; /* Color of hovered links */
-    --MAIN-ANCHOR-color: #599a3e; /* color of anchors on titles */
+    --MAIN-LINK-color: rgb(67, 153, 154); /* Color of links */
+    --MAIN-LINK-HOVER-color: rgb(45, 100, 101); /* Color of hovered links */
+    --MAIN-ANCHOR-color: rgb(67, 153, 154); /* color of anchors on titles */
 
-    --MENU-HEADER-BG-color:#74b559; /* Background color of menu header */
-    --MENU-HEADER-BORDER-color:#9cd484; /*Color of menu header border */ 
+    --MENU-HEADER-BG-color: rgb(29, 32, 36); /* Background color of menu header */
+    --MENU-HEADER-BORDER-color: rgb(87, 203, 204); /*Color of menu header border */
     
-    --MENU-SEARCH-BG-color:#599a3e; /* Search field background color (by default borders + icons) */
-    --MENU-SEARCH-BOX-color: #84c767; /* Override search field border color */
-    --MENU-SEARCH-BOX-ICONS-color: #c7f7c4; /* Override search field icons color */
+    --MENU-SEARCH-BG-color: rgb(171, 227, 229); /* Search field background color (by default borders + icons) */
+    --MENU-SEARCH-BOX-color: rgb(87, 203, 204); /* Override search field border color */
+    --MENU-SEARCH-BOX-ICONS-color: rgb(45, 100, 101); /* Override search field icons color */
 
-    --MENU-SECTIONS-ACTIVE-BG-color:#1b211c; /* Background color of the active section and its childs */
-    --MENU-SECTIONS-BG-color:#222723; /* Background color of other sections */
+    --MENU-SECTIONS-ACTIVE-BG-color: rgb(35, 37, 41); /* Background color of the active section and its childs */
+    --MENU-SECTIONS-BG-color: rgb(53, 59, 67); /* Background color of other sections */
     --MENU-SECTIONS-LINK-color: #ccc; /* Color of links in menu */
     --MENU-SECTIONS-LINK-HOVER-color: #e6e6e6;  /* Color of links in menu, when hovered */
     --MENU-SECTION-ACTIVE-CATEGORY-color: #777; /* Color of active category text */
     --MENU-SECTION-ACTIVE-CATEGORY-BG-color: #fff; /* Color of background for the active category (only) */
 
-    --MENU-VISITED-color: #599a3e; /* Color of 'page visited' icons in menu */
-    --MENU-SECTION-HR-color: #18211c; /* Color of <hr> separator in menu */
+    --MENU-VISITED-color: rgb(45, 100, 101); /* Color of 'page visited' icons in menu */
+    --MENU-SECTION-HR-color: rgb(29, 32, 36); /* Color of <hr> separator in menu */
     
 }
 
@@ -31,7 +32,7 @@ body {
 }
 
 textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="url"]:focus, input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus, select[multiple=multiple]:focus {
-    border-color: none;
+    border: none;
     box-shadow: none;
 }
 
@@ -102,3 +103,25 @@ a:hover {
     border-color: var(--MENU-SECTION-HR-color);
 }
 
+#search-by::placeholder {
+    color: var(--MENU-SEARCH-BOX-ICONS-color);
+}
+
+.logo {
+    display: inline-block;
+    padding: 0;
+    line-height: 42px;
+    white-space: nowrap;
+    color: rgb(87, 203, 204) !important;
+    font-family: anaheim,sans-serif;
+    font-size: 20px;
+    font-weight: 700 !important;
+}
+.logo > img {
+    vertical-align: middle;
+    border-style: none;
+}
+.logo > span {
+    display: inline-block;
+    padding-left: .5rem !important;
+}
