@@ -44,7 +44,7 @@ The stability of the API is a clear goal for the time AbterCMS matures, before 1
 
 ## Security-aware
 
-Admittedly, there's no such thing as completely secure, but it is also recognized that security needs to be a driving force while designing software systems. AbterCMS not only promotes best practices, it makes them easy to use and in some cases deliberately hard to dodge them. It's understandable if you're not yet convinced, but we have a lot more to say [about security]({{%relref "basics/security/_index.en.md" %}}).
+Admittedly, there's no such thing as completely secure, but it is also recognized that security needs to be a driving force while designing software systems. AbterCMS not only promotes best practices, it makes them easy to use and in some cases deliberately hard to dodge them. It's understandable if you're not yet convinced, but we have a lot more to say [about security]({{%relref "design-principles/security/_index.en.md" %}}).
 
 ## Contribute to this documentation
 Feel free to update this content, just click the **Edit this page** link displayed on top right of each page, and pullrequest it

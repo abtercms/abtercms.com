@@ -1,12 +1,12 @@
 ---
-title: Basics
-weight: 5
+title: Design principles
+weight: 10
 pre: "<b>1. </b>"
 chapter: true
 ---
 
 ### Chapter 1
 
-# Basics
+# Design Principles
 
 Discover the design principles of AbterCMS.

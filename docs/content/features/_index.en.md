@@ -1,6 +1,6 @@
 ---
-title: Components
-weight: 8
+title: Features
+weight: 20
 pre: "<b>2. </b>"
 chapter: true
 ---
