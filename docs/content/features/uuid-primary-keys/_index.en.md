@@ -4,7 +4,7 @@ weight: 60
 disableToc: true
 ---
 
-{{% notice danger %}}
+{{% notice warning %}}
 The current database schema of [AbterPHP](https://abterphp.abtercms.com/en/) stores IDs naively in `char(36)` columns. This is purely a temporary, technical workaround and is planned to be changed before the first stable release.
 {{% /notice %}}
 

@@ -9,15 +9,15 @@ This document lists a couple of ways we find generally important, but keep in mi
 
 ### Incomprehensive list of security features
 
-1. Modern handling of [passwords and secrets]({{%relref "features/passwords-and-secrets/_index.en.md" %}})
-1. [Login throttling]({{%relref "features/authentication/_index.en.md#login-throttling" %}})
-1. [2FA / MFA]({{%relref "features/authentication/_index.en.md#multi-factor-authentication-2fa-mfa" %}})
-1. [SSL-only]({{%relref "features/ssl-only/_index.en.md" %}})
-1. [Private file upload directories]({{%relref "components/files/entities/_index.en.md#files" %}})
-1. [Sane and safe configs]({{%relref "features/configuration/_index.en.md#sane-and-safe-configs" %}})
-1. [Secure HTTP headers]({{%relref "features/secure-http-headers/_index.en.md" %}})
-1. [Flexible authorization options]({{%relref "features/authorization/_index.en.md" %}})
-1. [Hard to guess login, admin and API URLs]({{%relref "features/configuration/_index.en.md#hard-to-guess-login-admin-and-api-urls" %}})
+1. Modern handling of [passwords and secrets]({{< ref "/features/passwords-and-secrets/_index.en.md" >}})
+1. [Login throttling]({{< ref "/features/authentication/_index.en.md#login-throttling" >}})
+1. [2FA / MFA]({{< ref "/features/authentication/_index.en.md#multi-factor-authentication-2fa-mfa" >}})
+1. [SSL-only]({{< ref "/features/ssl-only/_index.en.md" >}})
+1. [Private file upload directories]({{< ref "/components/files/entities/_index.en.md#files" >}})
+1. [Sane and safe configs]({{< ref "/features/configuration/_index.en.md#sane-and-safe-configs" >}})
+1. [Secure HTTP headers]({{< ref "/features/secure-http-headers/_index.en.md" >}})
+1. [Flexible authorization options]({{< ref "/features/authorization/_index.en.md" >}})
+1. [Hard to guess login, admin and API URLs]({{< ref "/features/configuration/_index.en.md#hard-to-guess-login-admin-and-api-urls" >}})
 
 ### OWASP Top 10, etc
 
