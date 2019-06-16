@@ -22,9 +22,14 @@ home = [ "HTML", "RSS", "JSON"]
 
 [Languages]
 [Languages.en]
-title = "Documentation for Hugo Learn Theme"
+title = "Documentation for AbterCMS"
 weight = 1
 languageName = "English"
+
+[Languages.hu]
+title = "AbterCMS dokumentáció"
+weight = 1
+languageName = "Magyar"
 
 [[Languages.en.menu.shortcuts]]
 name = "<i class='fab fa-fw fa-github'></i> Github repo"
@@ -33,12 +38,41 @@ url = "https://github.com/abtercms/abtercms.com/tree/master/docs"
 weight = 10
 
 [[Languages.en.menu.shortcuts]]
-name = "<i class='fas fa-fw fa-bookmark'></i> AbterCMS website"
+name = "<i class='fas fa-fw fa-globe'></i> AbterCMS website"
 identifier = "website"
 url = "https://abtercms.com/"
 weight = 20
 
 [[Languages.en.menu.shortcuts]]
+name = "<i class='fas fa-fw fa-book'></i> AbterPHP documentation"
+identifier = "abterphp"
+url = "https://abterphp.abtercms.com/"
+weight = 30
+
+[[Languages.en.menu.shortcuts]]
 name = "<i class='fas fa-fw fa-bullhorn'></i> Credits"
 url = "/credits"
+weight = 40
+
+[[Languages.hu.menu.shortcuts]]
+name = "<i class='fab fa-fw fa-github'></i> Github repo"
+identifier = "ds"
+url = "https://github.com/abtercms/abtercms.com/tree/master/docs"
+weight = 10
+
+[[Languages.hu.menu.shortcuts]]
+name = "<i class='fas fa-fw fa-globe'></i> AbterCMS weboldal"
+identifier = "website"
+url = "https://abtercms.com/"
+weight = 20
+
+[[Languages.hu.menu.shortcuts]]
+name = "<i class='fas fa-fw fa-book'></i> AbterPHP dokumentáció"
+identifier = "abterphp"
+url = "https://abterphp.abtercms.com/"
 weight = 30
+
+[[Languages.hu.menu.shortcuts]]
+name = "<i class='fas fa-fw fa-bullhorn'></i> Közreműködők"
+url = "/credits"
+weight = 40

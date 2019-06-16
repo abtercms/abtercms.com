@@ -19,3 +19,7 @@ AbterCMS helps you in two ways with this:
 1. On startup it must be checked that no "default" value is leaked into your configuration.
 
 2. On request it can generate reasonable defaults for you. This means that backend solutions must provide a (command line) tool which can display sane defaults for you. Optionally it may also be able to replace the current 
+
+### Hard to guess login, admin and API URLs
+
+The router of AbterCMS is also prepared to use custom login, admin and API base URLs. While this is certainly not something to make your system safe out of the box, it is a nice little additional layer of security.

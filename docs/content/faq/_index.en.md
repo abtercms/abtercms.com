@@ -1,7 +1,7 @@
 ---
 title: FAQ
-weight: 50
-pre: "<b>5. </b>"
+weight: 60
+pre: "<b>6. </b>"
 ---
 
 Okay, we admit, these aren't yet frequently asked questions. We just imagine they could be...
@@ -32,6 +32,6 @@ However if you think these heavy-weights will slow you down with their learning-
 
 If you're new to software development or have only worked with very specific tech-stacks, we think it will be great benefit for you to invest your time into AbterCMS because we aim to provide a lot of insight into software design, best practices of both the technologies used in the various implementations, testing and also operational tasks.
 
-#### Why is this website built with Hugo instead of AbterCMS?
+### Why is this website built with Hugo instead of AbterCMS?
 
-Because we believe in using the right tool for the job. This documentation needs to remain open to the public, so that anyone can improve it via a simple pull request. There is no need for any secrecy here, therefore no need for an admin interface either. Also, [there](https://jekyllrb.com/) [are](https://hexo.io/) [many](https://www.gatsbyjs.org/) [great](https://www.mkdocs.org/) [static](https://docs.getpelican.com/en/stable/) [website](https://metalsmith.io/) [generators](https://middlemanapp.com/), but we love [Hugo](https://gohugo.io/)! *(Probably because it's written in [Go](https://golang.org/))*
+Because we believe in using the right tool for the job. This documentation needs to remain open to the public, so that anyone can improve it via a simple pull request. There is no need for any secrecy here, therefore no need for an admin interface either. Also, [there](https://jekyllrb.com/) [are](https://hexo.io/) [many](https://www.gatsbyjs.org/) [great](https://www.mkdocs.org/) [static](https://docs.getpelican.com/en/stable/) [website](https://metalsmith.io/) [generators](https://middlemanapp.com/), but we love [Hugo](https://gohugo.io/)! *(Probably because it's written in [Go](https://golang.org/).)*
