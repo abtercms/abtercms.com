@@ -9,67 +9,70 @@ metaDataFormat = "yaml"
 defaultContentLanguageInSubdir= true
 
 [params]
-  editURL = "https://github.com/matcornic/hugo-theme-learn/edit/master/exampleSite/content/"
+  editURL = "https://github.com/abtercms/abtercms.com/edit/master/abterphp/content/"
   description = "Documentation for AbterPHP"
-  author = "Mathieu Cornic"
-  showVisitedLinks = true
+  author = "Team AbterCMS"
+  showVisitedLinks = false
   disableBreadcrumb = false
   disableNextPrev = false
+  themeVariant = "green"
 
 [outputs]
 home = [ "HTML", "RSS", "JSON"]
 
 [Languages]
 [Languages.en]
-title = "Documentation for Hugo Learn Theme"
+title = "Documentation for AbterCMS"
 weight = 1
 languageName = "English"
+
+[Languages.hu]
+title = "AbterPHP dokumentáció"
+weight = 1
+languageName = "Magyar"
 
 [[Languages.en.menu.shortcuts]]
 name = "<i class='fab fa-fw fa-github'></i> Github repo"
 identifier = "ds"
-url = "https://github.com/matcornic/hugo-theme-learn"
+url = "https://github.com/abtercms/abtercms.com/tree/master/abterphp"
 weight = 10
 
 [[Languages.en.menu.shortcuts]]
-name = "<i class='fas fa-fw fa-camera'></i> Showcases"
-url = "showcase"
-weight = 11
+name = "<i class='fas fa-fw fa-globe'></i> AbterCMS website"
+identifier = "website"
+url = "https://abtercms.com/"
+weight = 20
 
 [[Languages.en.menu.shortcuts]]
-name = "<i class='fas fa-fw fa-bookmark'></i> Hugo Documentation"
-identifier = "hugodoc"
-url = "https://gohugo.io/"
-weight = 20
+name = "<i class='fas fa-fw fa-book'></i> AbterCMS documentation"
+identifier = "abtercms"
+url = "https://docs.abtercms.com/"
+weight = 30
 
 [[Languages.en.menu.shortcuts]]
 name = "<i class='fas fa-fw fa-bullhorn'></i> Credits"
 url = "/credits"
-weight = 30
+weight = 40
 
-[Languages.fr]
-title = "Documentation du thème Hugo Learn"
-weight = 2
-languageName = "Français"
-
-[[Languages.fr.menu.shortcuts]]
-name = "<i class='fab fa-fw fa-github'></i> Repo Github"
+[[Languages.hu.menu.shortcuts]]
+name = "<i class='fab fa-fw fa-github'></i> Github repo"
 identifier = "ds"
-url = "https://github.com/matcornic/hugo-theme-learn"
+url = "https://github.com/abtercms/abtercms.com/tree/master/abterphp"
 weight = 10
 
-[[Languages.fr.menu.shortcuts]]
-name = "<i class='fas fa-fw fa-camera'></i> Vitrine"
-url = "/showcase"
-weight = 11
-
-[[Languages.fr.menu.shortcuts]]
-name = "<i class='fas fa-fw fa-bookmark'></i> Documentation Hugo"
-identifier = "hugodoc"
-url = "https://gohugo.io/"
+[[Languages.hu.menu.shortcuts]]
+name = "<i class='fas fa-fw fa-globe'></i> AbterCMS weboldal"
+identifier = "website"
+url = "https://abtercms.com/"
 weight = 20
 
-[[Languages.fr.menu.shortcuts]]
-name = "<i class='fas fa-fw fa-bullhorn'></i> Crédits"
-url = "/credits"
+[[Languages.hu.menu.shortcuts]]
+name = "<i class='fas fa-fw fa-book'></i> AbterCMS dokumentáció"
+identifier = "abtercms"
+url = "https://docs.abtercms.com/"
 weight = 30
+
+[[Languages.hu.menu.shortcuts]]
+name = "<i class='fas fa-fw fa-bullhorn'></i> Közreműködők"
+url = "/credits"
+weight = 40
